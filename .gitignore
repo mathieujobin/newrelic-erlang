@@ -2,3 +2,6 @@ ebin
 deps
 *.beam
 .eunit
+_build/
+.rebar/
+rebar.lock
