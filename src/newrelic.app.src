@@ -1,7 +1,7 @@
 {application, newrelic,
  [
-  {description, ""},
-  {vsn, "0.1"},
+  {description, "Erlang library for sending metrics to New Relic."},
+  {vsn, "0.1.0"},
   {registered, []},
   {applications, [
                   kernel,
@@ -9,5 +9,6 @@
                   statman
                  ]},
   {mod, {newrelic_app, []}},
-  {env, []}
+  {env, []},
+  {links, [{"GitHub", "https://github.com/wooga/newrelic-erlang"}]}
  ]}.
